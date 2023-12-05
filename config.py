@@ -4,7 +4,7 @@ SECRET_KEY = 'marc123'
 
 SQLALCHEMY_DATABASE_URI = \
     'postgresql+psycopg2://{usuario}:{senha}@{servidor}/{database}'.format(
-
+        
         usuario='postgres',
         senha='123',
         servidor='localhost',
